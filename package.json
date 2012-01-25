@@ -1,4 +1,5 @@
 {   "name":             "signup"
+,	  "preferGlobal": "true"
 ,   "version":          "0.0.1"
     ,"description": "A simple API that can be used to handle website forms, like signups and contact forms"
 ,   "author":  {"name": "Steve Campbell", "email": "steve@perfectapi.com" }
