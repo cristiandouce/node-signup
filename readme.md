@@ -15,14 +15,16 @@ This may seem like it just moves the cost to another server, but in reality ther
 	$ signup server -p 3000
 	
 (runs as service on port 3000).  In Windows, use `SET` instead of `export`.  You can install as a service/daemon using:
+
     $ signup install -p 3000
 	
 For other commands, try:
+
     $ signup --help
 
 ## Configuring SMTP and email templates
 
-The API has a `templates' folder with various predefined JSON and TXT files.  When installed globally, this is usually `/usr/local/lib/node_modules/signup/templates` or `C:\Program Files (x86)\nodejs\node_modules\signup\templates`.
+The API has a `templates` folder with various predefined JSON and TXT files.  When installed globally, this is usually `/usr/local/lib/node_modules/signup/templates` or `C:\Program Files (x86)\nodejs\node_modules\signup\templates`.
 
 The JSON files are configs for SMTP and the TXT files are email templates.  You should copy or rename *one* of the SMTP files into `settings.json`.  Edit the file to input your own SMTP settings.   You can also create one or more email templates, or just edit the default `email.txt` template.
 
@@ -36,7 +38,8 @@ On your web page with some sort of form, you need to have a link to jQuery, and 
 ```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src='http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js' ></script>
-<script type="text/javascript" src="http://localhost:3000/signup/jquery.perfectapi.js" ></script>```
+<script type="text/javascript" src="http://localhost:3000/signup/jquery.perfectapi.js" ></script>
+```
 
 This is an example of HTML and client-side javascript for a signup form, using jQuery.validate for the client-side validation:
 
@@ -66,7 +69,8 @@ This is an example of HTML and client-side javascript for a signup form, using j
 			<button>Submit</button>
 		</li>				
 	</ul>
-</form>```
+</form>
+```
 
 ...and the client-side javascript for the form:
 
@@ -98,5 +102,6 @@ $('form').submit(function() {
 	});
 		
 	return false;
-});```
+});
+```
 
