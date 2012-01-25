@@ -1,0 +1,22 @@
+{   "name":             "signup"
+,   "version":          "0.0.1"
+    ,"description": "A simple API that can be used to handle website forms, like signups and contact forms"
+,   "author":  {"name": "Steve Campbell", "email": "steve@perfectapi.com" }
+    ,"keywords": "signup, contact, form, webform, api"
+    ,"homepage": "http://www.perfectapi.com/"
+    ,"bugs": {"url": "https://github.com/perfectapi/signup/issues", "email": "signup@perfectapi.com" }
+    ,"main": "./lib/main.js"
+	,"bin": "./bin/signup.js"
+,   "engines": {
+        "node" : ">=0.6.5"
+    }
+,   "dependencies":    {   
+		"perfectapi": ">=0.0.6",
+		"nodemailer": "0.2"
+    }
+,   "repository" :
+    {
+        "type" : "git",
+        "url" : "git://github.com/perfectapi/signup.git"
+    }
+}
