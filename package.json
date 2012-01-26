@@ -1,9 +1,9 @@
 {   "name":             "signup"
 ,	  "preferGlobal": "true"
 ,   "version":          "0.0.2"
-    ,"description": "A simple servie API that can be used to handle website forms, like signups and contact forms"
+    ,"description": "A simple service API that can be used to handle website forms, like signups and contact forms"
 ,   "author":  {"name": "Steve Campbell", "email": "steve@perfectapi.com" }
-    ,"keywords": "signup, contact, form, webform, api"
+    ,"keywords": "signup, contact, form, webform, api, perfectapi"
     ,"homepage": "http://www.perfectapi.com/"
     ,"bugs": {"url": "https://github.com/perfectapi/signup/issues", "email": "signup@perfectapi.com" }
     ,"main": "./lib/signup.js"

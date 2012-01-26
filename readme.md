@@ -24,7 +24,7 @@ For other commands, try:
 
 ## Configuring SMTP and email templates
 
-The API has a `templates` folder with various predefined JSON and TXT files.  When installed globally, this is usually `/usr/local/lib/node_modules/signup/templates` or `C:\Program Files (x86)\nodejs\node_modules\signup\templates`.
+The API has a `templates` folder with various predefined JSON and TXT files.  When installed globally, this is usually `/usr/local/lib/node_modules/signup/templates` or on Windows `%APPDATA%\npm\node_modules\signup\templates`.
 
 The JSON files are configs for SMTP and the TXT files are email templates.  You should copy or rename *one* of the SMTP files into `settings.json`.  Edit the file to input your own SMTP settings.   You can also create one or more email templates, or just edit the default `email.txt` template.
 
@@ -41,7 +41,7 @@ On your web page with some sort of form, you need to have a link to jQuery, and 
 <script type="text/javascript" src="http://localhost:3000/signup/jquery.perfectapi.js" ></script>
 ```
 
-This is an example of HTML and client-side javascript for a signup form, using jQuery.validate for the client-side validation:
+This is an example of HTML and client-side javascript for a signup form, using jQuery.validate for the client-side validation.  Email address of the person filling out the form **must** be in a field with id of `email`.
 
 ```
 <form id="signupForm" class="signupform">
