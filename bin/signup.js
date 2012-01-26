@@ -10,7 +10,6 @@ var parser = new perfectapi.Parser();
 parser.on("send", function(config, callback) {
 
 	main.send(config, callback);
-	
 });
  
 //expose our API
