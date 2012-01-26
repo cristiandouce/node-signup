@@ -1,6 +1,6 @@
 {   "name":             "signup"
 ,	  "preferGlobal": "true"
-,   "version":          "0.0.2"
+,   "version":          "0.0.3"
     ,"description": "A simple service API that can be used to handle website forms, like signups and contact forms"
 ,   "author":  {"name": "Steve Campbell", "email": "steve@perfectapi.com" }
     ,"keywords": "signup, contact, form, webform, api, perfectapi"
