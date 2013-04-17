@@ -5,7 +5,7 @@
 ,   "author":  {"name": "Steve Campbell", "email": "steve@perfectapi.com" }
     ,"keywords": "signup, contact, form, webform, api, perfectapi"
     ,"homepage": "http://www.perfectapi.com/"
-    ,"bugs": {"url": "https://github.com/perfectapi/signup/issues", "email": "signup@perfectapi.com" }
+    ,"bugs": {"url": "https://github.com/perfectapi/node-signup/issues", "email": "signup@perfectapi.com" }
     ,"main": "./lib/signup.js"
 	,"bin": "./bin/signup.js"
 ,   "engines": {
@@ -18,6 +18,6 @@
 ,   "repository" :
     {
         "type" : "git",
-        "url" : "git://github.com/perfectapi/signup.git"
+        "url" : "git://github.com/perfectapi/node-signup.git"
     }
 }
